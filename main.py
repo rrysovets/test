@@ -2,6 +2,7 @@ import json
 import asyncio
 from curl_cffi.requests import AsyncSession
 from pandas import ExcelWriter, DataFrame
+# from cache import categories_cache
 
 
 class Category:
